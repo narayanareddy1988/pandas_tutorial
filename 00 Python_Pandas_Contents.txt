@@ -1,0 +1,27 @@
+Contents:
+
+	* Introduction
+
+	* Installation of Pandas
+
+	* Importing Pandas
+
+	* How to download Dataset
+
+	* Creating DataFrame
+
+	* Indexing & Slicing
+
+	* Understanding LOC & ILOC
+
+	* Sorting DataFrame
+
+	* Manipulating DataFrame
+
+	* Removing Duplicates
+
+	* Hadling Missing Data
+
+	* Data Filtering and Conditional Changes
+
+	* Export DataFrame

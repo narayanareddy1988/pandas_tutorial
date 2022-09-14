@@ -1,0 +1,10 @@
+How to download DATASET:
+
+	* A dataset is a collection of data.
+
+	* Data is information recorded systematically and stated within its context.
+
+	* FREE DATASET
+
+		https://www.kaggle.com/
+

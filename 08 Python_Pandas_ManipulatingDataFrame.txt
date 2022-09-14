@@ -1,0 +1,23 @@
+Manipulating DataFrame:
+
+	Adding Column:
+
+		* data_frame['new_col_name']=default_value
+
+		* data_frame['new_col_name']=Expression/Condition
+
+	Removing Column:
+
+		* data_frame.drop(columns="column_name")
+
+		* data_frame.drop(columns="column_name", inplace=True)
+
+	df['Total']=0
+
+	df['Total']=df['Telugu']+df['English']+df['Maths']
+
+	df['Perc']="PASS/FAIL"
+
+	df.drop(columns="Perc")
+
+	df.drop(columns="Perc", inplace=True)

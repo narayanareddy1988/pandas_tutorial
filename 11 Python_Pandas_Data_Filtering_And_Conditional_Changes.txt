@@ -1,0 +1,35 @@
+Data Filtering & Conditional Changes:
+
+	* data_frame.loc[simple_condition]
+
+	* data_frame.loc[compound_condition] # eg: value>80 and value<90
+
+	* data_frame.loc[simple_condition.str.contains(str)]
+
+	* data_frame.loc[simple_condtion.str.startswith(str)]
+
+	* data_frame.loc[simple_condition.str.endswith(str)]
+
+	* Simple Condition
+
+		> data_frame["col_name"]>/</ == value
+
+	eg:
+
+		df.loc[df["Maths"]>85]
+
+		df.loc[(df["Maths"]>70) & (df["Maths"]<90)]
+
+		df.loc[df["Name_of_Student"].str.contains("i")]
+
+		df.loc[df["Name_of_Student"].str.startswith("a")]
+
+		df.loc[df["Name_of_Student"].str.endswith("i")]
+
+		df.loc[df["Percentage"]<40,["Grade"]]="Fail"
+
+		df.loc[(df["Percentage"]>=40) & (df["Percentage"]<60),["Grade"]]="Pass"
+
+		df.loc[(df["Percentage"]>=60) & (df["Percentage"]<70),["Grade"]]="First"
+
+		df.loc[df["Percentage"]>=70,["Grade"]]="Distinction"

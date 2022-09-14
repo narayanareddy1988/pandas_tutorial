@@ -1,0 +1,21 @@
+Handling Missing Data:
+
+	* pd.read_excel("marks.xlsx",sheet_name="sheetname")
+	
+	Removing Missing Data:
+
+		* data_frame.dropna()
+
+		* data_frame.dropna(inplace=True)
+
+	Fill with default values
+
+		* data_frame.fillna(default_value)
+
+	df.fillna(80)
+
+	df['Social'].fillna(80)
+
+	df.dropna()
+
+	df.dropna(inplace=True)

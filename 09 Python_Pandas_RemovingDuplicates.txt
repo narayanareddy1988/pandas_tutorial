@@ -1,0 +1,17 @@
+Removing Duplicates:
+
+	* Knowing Duplicates
+
+		> data_frame.duplicated() - Boolean result
+
+	* Removing Duplicates
+
+		> data_frame.drop_duplicates()
+
+		> data_frame.drop_duplicates(inplace=True)
+
+	df.duplicated()
+
+	df.drop_duplicates() > temporary deletion
+
+	df.drop_duplicates(inplace=True) > permanant deletion

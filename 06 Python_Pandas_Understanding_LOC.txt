@@ -1,0 +1,60 @@
+Understanding LOC:
+
+	* Understanding LOC[](stop index included)
+
+	* data_frame.loc[row_number]
+
+	* data_frame.loc[row_number,[column_name,...]]
+
+	* data_frame.loc[start:stop]
+
+	* data_frame.loc[start:stop,"column_name"]
+
+	* data_frame.loc[start:stop,["column1,column2,.."]]
+
+	* data_frame.loc[start:stop,"column_1":"column_n"]
+
+Understanding iLOC:
+
+	* Understanding iLOC[](stop index excluded)
+
+	* data_frame.iloc[row_number,column_number]
+
+	* data_frame.iloc[row_start:row_stop,col_start:col_stop]
+
+	* data_frame.iloc[start:stop, "column_number"]
+
+	* data_frame.iloc[row_1,row2,...]
+
+	* data_frame.iloc[:,[col_1,col_2,...]]
+
+	* data_frame.iloc[start:stop,[col_1,col2,...]]
+
+
+	df.loc[1] # it will give first row of dataframe.
+
+	df.loc[19,["Name_of_Student"]]
+
+	df.loc[0:5]
+
+	df.loc[0:4,"Name_of_Student":"Science"]
+
+
+	df.iloc[19,1]
+
+	df.iloc[0:4]
+
+	df.iloc[0:5,0:3]
+
+	df.iloc[0:5,1]
+
+	df.iloc[[1,2,3]]
+
+	df.iloc[:,[1,2,5]]
+
+
+	LOC			ILOC
+
+	Stop index included	Stop index exclude
+
+	column name		coulmn no

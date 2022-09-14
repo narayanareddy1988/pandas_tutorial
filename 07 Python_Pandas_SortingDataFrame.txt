@@ -1,0 +1,15 @@
+Sorting DataFrame:
+
+	* data_frame.sort_values("column_name")
+
+	* data_frame.sort_values("column_name",ascending=False)
+
+	* data_frame.sort_values(["column_1","column_2"])
+
+	* data_frame.sort_values(["column_1","column_2"],ascending=[0,1])
+
+	df.sort_values("Maths")
+
+	df.sort_values("Maths",ascending=False)
+
+	df.sort_values(["Maths","Science"])

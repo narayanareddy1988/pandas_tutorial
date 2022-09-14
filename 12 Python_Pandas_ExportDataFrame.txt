@@ -1,0 +1,19 @@
+Export DataFrame:
+
+	* data_frame.to_excel(PATH)
+
+	* data_frame.to_excel(PATH,index=False)
+
+	* data_frame.to_csv(PATH)
+
+	* data_frame.to_csv(PATH,index=False)
+
+	eg:
+
+		df.to_excel("c:\\Users\\Markswithgrades.xlsx")
+
+		df.to_excel("c:\\Users\\Markswithgrades.xlsx", index=False)
+
+		df.to_csv("c:\\Users\\Markswithgrades.csv")
+
+		df.to_csv("c:\\Users\\Markswithgrades.csv", index=False)

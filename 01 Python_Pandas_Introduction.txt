@@ -1,0 +1,19 @@
+Introduction:
+
+	* pandas is a software library written for the Python programming language for data manipulation and analysis.
+
+	* The pandas module mainly works with the tabular data
+
+	* pandas is capable of offering an in-memory 2d table object called DataFrame
+
+	* The most widely used pandas data structures are the series and the DataFrame
+
+	* Simply, a Series is similar to a single column of data while a DatFrame is similar to a sheet with rows and columns.
+
+	* 3 main data structures are in pandas
+
+		> Series - 1D
+
+		> DataFrame - 2D
+
+		> Panel - 3D

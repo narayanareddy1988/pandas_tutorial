@@ -1,0 +1,13 @@
+Installation of pandas:
+
+	* Go to command Prompt and change the location to where the python has installed in your desktop / laptop and use the following command to install PANDAS 	  library.
+
+	* pip install pandas
+
+	* To test whether pandas module is properly installed, try the given command.
+
+	* import pandas
+
+	* To check the version of pandas, use the given command
+
+	* print(pandas._version_)

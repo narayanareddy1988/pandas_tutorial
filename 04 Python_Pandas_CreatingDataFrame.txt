@@ -1,0 +1,38 @@
+Creating DataFrame:
+
+	* Load the data from EXCEL file
+
+		> read_excel("file_location")
+
+	* Load the data from CSV file
+
+		> read_csv("file_location")
+
+	* Create DataFrame using DICTIONARY
+
+	* Create DataFrame using LIST OF TUPLES
+
+
+	Eg:
+		import pandas as pd
+
+		d=pd.read_excel("c:\\Users\\marks.xlsx")
+		df=pd.DataFrame(d)
+		df
+
+		d=pd.read_csv("c:\\Users\\marks.csv")
+		df=pd.DataFrame(d)
+		df
+		
+	* Using dictionary
+
+		di={"Name":["abc","def","ghi"], "Roll_no":[1,2,3],"Perc":[90.5,89.4,99]}
+
+		df-pd.DataFrame(di)
+		df
+
+	* Using LIST of tuple
+
+		l=[("abc",10,89.2),("def", 11,79.3, ("klm", 12,65.4)]
+		df=pd.DataFrame(l)
+		df
